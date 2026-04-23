@@ -12,6 +12,7 @@ interface Project {
   tech: string[];
   color: string;
   image?: string;
+  link?: string;
 }
 
 type ViewType = "home" | "projects";
@@ -106,7 +107,7 @@ export const ProjectsSection: React.FC<ProjectsSectionProps> = ({
         {projects.map((project) => (
           <article
             key={project.id}
-            onClick={handleProjectClick}
+            onClick={() => project.link && window.open(project.link, "_blank")}
             className="group relative flex flex-col p-px bg-gradient-to-b from-zinc-700/30 to-transparent rounded-[2rem] cursor-pointer transition-all duration-500 hover:scale-[1.01]"
           >
             <div className="flex flex-col h-full p-6 bg-zinc-950 rounded-[calc(2rem-1px)] overflow-hidden">

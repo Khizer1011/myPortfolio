@@ -43,7 +43,12 @@ export const Header: React.FC<HeaderProps> = ({ view, setView }) => {
         {view === "home" && (
           <>
             <p className="text-xl text-zinc-200 leading-relaxed">
-              Hi, I'm a partime full stack developer and a full time learner.
+              I build robust, scalable web applications from the hardware level
+              up to the user interface. Beyond standard development, I
+              specialize in using machine learning to recognize patterns within
+              natural phenomena. I thrive on using real-world data to bridge the
+              gap between low-level system efficiency and solving complex,
+              large-scale problems.
             </p>
             <p className="text-zinc-400">Always learning and building.</p>
 
