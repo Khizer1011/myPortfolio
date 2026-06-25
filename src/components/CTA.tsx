@@ -17,7 +17,7 @@ export const CTA: React.FC = () => {
           </p>
 
           <a
-            href="https://www.instagram.com/khizer0101"
+            href="https://www.instagram.com/_khizer11"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full md:w-auto px-10 py-4 bg-white text-black font-bold rounded-xl hover:scale-105 transition-transform flex items-center justify-center gap-2 inline-flex"
