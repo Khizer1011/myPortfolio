@@ -30,7 +30,7 @@ export const InfoBar: React.FC<InfoBarProps> = ({ time, formatTime }) => {
           <Github size={18} />
         </a>
         <a
-          href="https://www.instagram.com/khizer0101"
+          href="https://www.instagram.com/_khizer11"
           className="hover:text-white transition-colors"
         >
           <Instagram size={18} />
