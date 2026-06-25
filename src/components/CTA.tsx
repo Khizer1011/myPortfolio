@@ -22,7 +22,7 @@ export const CTA: React.FC = () => {
             rel="noopener noreferrer"
             className="w-full md:w-auto px-10 py-4 bg-white text-black font-bold rounded-xl hover:scale-105 transition-transform flex items-center justify-center gap-2 inline-flex"
           >
-            Message @khizer0101 <Instagram size={20} />
+            Message @_khizer11 <Instagram size={20} />
           </a>
         </div>
       </div>
